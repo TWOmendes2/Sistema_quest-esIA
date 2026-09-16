@@ -557,3 +557,9 @@ Distribuído sob a licença MIT. Consulte LICENSE.
 <p align="center">
   <strong>Nexo Avalia — Dados que ensinam.</strong>
 </p>
+
+## Revisão técnica e evolução
+
+[Arquitetura](docs/ARCHITECTURE.md) · [Segurança](docs/SECURITY.md) · [IA](docs/AI.md) · [Testes](docs/TESTING.md) · [Roadmap](docs/ROADMAP.md) · [ADR 0001](docs/adr/0001-preserve-modular-monolith.md) · [ADR 0002](docs/adr/0002-ai-as-untrusted-draft.md)
+
+As verificações estáticas e unitárias não certificam uma implantação nem substituem testes de RLS e E2E.
