@@ -11,7 +11,8 @@
     "validate:priority": "node scripts/validate-priority-flows.mjs",
     "validate": "npm run typecheck && npm run lint && npm run validate:priority && npm run validate:teacher-scope && npm run validate:public",
     "validate:teacher-scope": "node scripts/validate-teacher-subject-scope.mjs",
-    "validate:public": "node scripts/validate-public-repository.mjs"
+    "validate:public": "node scripts/validate-public-repository.mjs",
+    "test": "tsx --test tests/*.test.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
